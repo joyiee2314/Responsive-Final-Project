@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(89.7deg, rgb(0, 0, 0) -10.7%, rgb(53, 92, 125) 88.8%);
+
+}
+
+.navigation-section{
+background-color: rgba(0, 0, 0, 0.2);
+}
+
+.navigation-section li {
+    margin:auto;
+    line-height: 60px;
+}
+
+.alegria{
+font-size: 20px;
+color: black;
+font-weight: bolder;
+background-color: rgb(135, 175, 243);
+opacity: 0.5;
+cursor: pointer;
+padding: 3px 20px;
+border-radius: 10px;;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.index{
+    text-align: center;
+    padding-top:40px
+}
+
+.info-left p{
+    font-size: 25px;
+}
+
+.name{
+    text-align: center;
+    font-size:100px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+}
+
+
+.nav-pages li:hover{
+    text-decoration: underline;
+    background-color: rgb(135, 175, 243);
+    border-radius: 5px;
+    cursor: pointer;
+   }
+
+/* footer */
+
+
+ .footer-content {
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    padding: 50px;
+    cursor: pointer;
+}
+
+.socials i{
+    font-size: 40px;
+    padding-bottom: 5px;
+    gap: 5px;
+}
+
+
+
+/* SECTION 2 */
+
+.sec-2{
+    text-align: center;
+
+}
+
+.aboutself li{
+    list-style: none;
+}
+
+.all-about-me {
+    font-size: 20px;
+}
+
+
+/* section 3 */
+
+
+
+.sec-3 img{
+    padding: 5px;
+
+}
+
+/* section-4 */
+
+div.list{ 
+    background: url(img/background.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    max-width: 100%;
+    height:100%;
+   }
+
+.list li {
+    list-style: none;
+    font-weight: bolder;
+    opacity: 0.80;
+    font-size: larger;
+}
+.my-image img{
+  padding: 5px;
+}
